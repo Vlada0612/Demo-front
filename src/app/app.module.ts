@@ -18,7 +18,6 @@ import {NgxFileDropModule} from 'ngx-file-drop';
 import {HttpClientModule} from '@angular/common/http';
 import {DndDirective} from './dnd.directive';
 import {Ng2TelInputModule} from 'ng2-tel-input';
-// import {InternationalPhoneNumberModule} from 'ng-phone-mask';
 import {NgxMaskModule} from 'ngx-mask';
 import { TextMaskModule } from 'angular2-text-mask';
 import { RegisterComponent } from './register/register.component';
@@ -49,7 +48,6 @@ import {NgxWebstorageModule} from 'ngx-webstorage';
     HttpClientModule,
     Ng2TelInputModule,
     TextMaskModule,
-    // InternationalPhoneNumberModule,
     NgxMaskModule.forRoot(),
     ReactiveFormsModule,
     NgxWebstorageModule.forRoot()
